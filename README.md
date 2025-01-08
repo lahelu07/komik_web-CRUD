@@ -104,9 +104,9 @@ Teknologi yang Digunakan
 
 3. Edit atau hapus komik sesuai kebutuhan.
 
-4. Kontribusi
+### Kontribusi
 
-5. Pull request dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+Pull request dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
 
 ### Lisensi
 
