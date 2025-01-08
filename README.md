@@ -33,3 +33,82 @@ Modal untuk mengonfirmasi penghapusan data komik.
 1. Clone repository ini:
    ```bash
    git clone <repository_url>
+   ```
+2. Masuk ke direktori backend:
+  ```bash
+  cd backend
+  ``` 
+3. Instal dependensi:
+  ```bash
+   go mod tidy
+  ```
+4. Atur koneksi database di file config/database.go:
+ ```bash
+   dsn := "root:@tcp(127.0.0.1:3306)/komik?charset=utf8mb4&parseTime=True&loc=Local"
+ ```
+5. Jalankan server:
+ ```bash
+   go run main.go
+ ```
+6. Server akan berjalan di http://localhost:8081.
+
+### Langkah-langkah Frontend
+
+1. Masuk ke direktori frontend:
+ ```bash
+   cd frontend
+ ```
+2. Instal dependensi:
+ ```bash
+   npm install
+ ```
+3. Jalankan aplikasi:
+```
+npm run dev
+```
+4. Frontend akan berjalan di http://localhost:5173.
+
+### Struktur Direktori
+
+```bash
+Komik-Management-System/
+|— backend/
+|   |— config/
+|   |   — database.go
+|   |— controllers/
+|   |   — komik_controller.go
+|   |— models/
+|   |   — komik.go
+|   |— routes/
+|   |   — komik_routes.go
+|   |— main.go
+|— frontend/
+    |— src/
+        |— components/
+        |   — KomikDeleteModal.jsx
+        |   — KomikForm.jsx
+        |   — KomikList.jsx
+        |— App.jsx
+        |— main.jsx
+```
+
+Teknologi yang Digunakan
+- Backend: Go, Gin, GORM, MySQL
+- Frontend: React, Axios, Tailwind CSS
+
+### Cara Penggunaan
+
+1. Buka aplikasi frontend di http://localhost:5173.
+
+2. Tambahkan data komik melalui formulir.
+
+3. Edit atau hapus komik sesuai kebutuhan.
+
+4. Kontribusi
+
+5. Pull request dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+
+Lisensi
+
+Proyek ini menggunakan lisensi MIT.
+
