@@ -97,7 +97,7 @@ Teknologi yang Digunakan
 - Backend: Go, Gin, GORM, MySQL
 - Frontend: React, Axios, Tailwind CSS
 
-##Penggunaan
+## Penggunaan
 ### Cara Penggunaan
 
 1. Buka aplikasi frontend di http://localhost:5173.
