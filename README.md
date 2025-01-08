@@ -97,6 +97,7 @@ Teknologi yang Digunakan
 - Backend: Go, Gin, GORM, MySQL
 - Frontend: React, Axios, Tailwind CSS
 
+##Penggunaan
 ### Cara Penggunaan
 
 1. Buka aplikasi frontend di http://localhost:5173.
@@ -105,6 +106,7 @@ Teknologi yang Digunakan
 
 3. Edit atau hapus komik sesuai kebutuhan.
 
+## Tambahan
 ### Kontribusi
 
 Pull request dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
