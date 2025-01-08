@@ -53,6 +53,7 @@ Modal untuk mengonfirmasi penghapusan data komik.
 6. Server akan berjalan di http://localhost:8081.
 
 ### Langkah-langkah Frontend
+step by step
 
 1. Masuk ke direktori frontend:
  ```bash
@@ -69,6 +70,7 @@ npm run dev
 4. Frontend akan berjalan di http://localhost:5173.
 
 ### Struktur Direktori
+struktur dari folder
 
 ```bash
 Komik-Management-System/
