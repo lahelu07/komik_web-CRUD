@@ -31,9 +31,9 @@ Modal untuk mengonfirmasi penghapusan data komik.
 
 ### Langkah-langkah Backend
 1. Clone repository ini:
-   ```bash
-   git clone <repository_url>
-   ```
+ ```
+ git clone <repository_url>
+ ```
 2. Masuk ke direktori backend:
   ```bash
   cd backend
@@ -108,7 +108,7 @@ Teknologi yang Digunakan
 
 5. Pull request dipersilakan. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
 
-Lisensi
+### Lisensi
 
 Proyek ini menggunakan lisensi MIT.
 
